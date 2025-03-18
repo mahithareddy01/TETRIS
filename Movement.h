@@ -10,7 +10,7 @@ class Movement {
 public:
 	Movement(int width, int height, std::vector<std::vector<int>>& grid);
 
-	void moveDown(Tetromino& t);
+	bool moveDown(Tetromino& t);
 	void moveLeft(Tetromino& t);
 	void moveRight(Tetromino& t);
 	void rotate(Tetromino& t);
